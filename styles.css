@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #adb5bd; 
+}
+
+.quote-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #5b6e74; 
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #819fa7; 
+    animation: fadeIn 2s ease-in-out;
+}
+
+.quote {
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Vollkorn SC", serif;
+    color: #ffffff; 
+    margin: 0;
+}
+
+.author {
+    font-size: 20px; 
+    color: #bde8f1; 
+    margin-top: 20px; 
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
